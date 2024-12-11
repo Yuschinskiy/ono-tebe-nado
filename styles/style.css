@@ -54,6 +54,8 @@
     position: relative;
     background: url('../images/cover.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     max-height: 757px;
     margin-top: -5px;
 }
@@ -150,10 +152,12 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0.13em ;
+    word-spacing: 0.7em;
+    letter-spacing: 0.027em ;
     text-align: left;
     text-transform: uppercase;
     z-index: 2;
+    margin-top: 7px;
 }
 
 .bet-button {
@@ -242,23 +246,24 @@
     position: relative;
     background: url('../images/card-lot-01.jpg');
     background-position: center;
-    background-size: contain;
     background-repeat: no-repeat;
-    left: 0;
-
+    background-size: cover;
 }
 
 .card_type_book {
     position: relative;
     background: url('../images/card-lot-02.jpg');
     background-position: center;
- 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card_type_picture {
     position: relative;
     background: url('../images/card-lot-03.jpg');
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lots__look-more-link {
@@ -323,7 +328,6 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.01em;
     text-align: left;
 }
 
