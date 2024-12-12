@@ -47,7 +47,7 @@
 .header__address {
     width: 240px;
     margin-right: 26px;
-
+    font-style: italic;
 }
 
 .cover {
@@ -153,11 +153,11 @@
     font-weight: 400;
     line-height: 28px;
     word-spacing: 0.7em;
-    letter-spacing: 0.027em ;
+    letter-spacing: 0.025em ;
     text-align: left;
     text-transform: uppercase;
     z-index: 2;
-    margin-top: 7px;
+    margin-top: 4px;
 }
 
 .bet-button {
@@ -345,6 +345,7 @@
     font-size: 18px;
     margin-left: 49px;
     line-height: 1.33em;
+    font-style: italic;
 }
 
 .footer__menu {
