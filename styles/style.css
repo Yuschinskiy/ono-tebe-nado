@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  margin: 93px 24px 96px 24px;
+  margin: 93px auto 96px auto;
   align-items: center;
 }
 
