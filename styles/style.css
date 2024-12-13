@@ -11,7 +11,7 @@
     line-height: 21px;
     font-size: 18px;
     font-weight: 400;
-    margin-left: 26px;
+    margin-left: 50px;
 }
 
 .header__links-list-item {
@@ -46,8 +46,7 @@
 
 .header__address {
     width: 240px;
-    margin-right: 26px;
-    font-style: italic;
+    margin-right: 48px;
 }
 
 .cover {
@@ -306,13 +305,11 @@
 }
 
 .about__column {
-    width: 693px;
-    height: 449px;
     padding-top: 133px;
-
 }
 
 .about__title {
+    width: 291px;
     font-size: 40px;
     padding-top: 100px;
     line-height: 47px;
@@ -346,7 +343,6 @@
     font-size: 18px;
     margin-left: 49px;
     line-height: 1.33em;
-    font-style: italic;
 }
 
 .footer__menu {
